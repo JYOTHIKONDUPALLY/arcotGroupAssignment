@@ -1,0 +1,47 @@
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .side {
+    width: 100px; 
+  }
+  
+  .middle {
+    flex: 1;
+  }
+  
+  .bar-container {
+    height: 10px; 
+    width:100px;
+    background-color: #f1f1f1;
+  }
+  
+  .bar-1 { background-color: #f44336; }
+  .bar-2 { background-color: #ff9800; }
+  .bar-3 { background-color: #00bcd4; }
+  .bar-4 { background-color: #2196F3; }
+  .bar-5 { background-color: #04AA6D; }
+  
+  .side.right {
+    text-align: right;
+  }
+  
+  
+  .bar {
+    height: 100%;
+    width:100%;
+  }
+  
+  .side.right {
+    text-align: right;
+  }
+  
+  .Rating{
+    width:100%;
+position:relative;
+top:-55px;
+overflow: hidden;
+height:200px;
+  }
